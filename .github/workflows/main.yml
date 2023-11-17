@@ -21,4 +21,18 @@ jobs:
       - name: 'Testing Printing'
         run: echo 'Mohamed Ali'
       
+<<<<<<< HEAD
       -
+=======
+      - name: "Login to Docker hub"
+        run: docker login --username mo7med3li --password ${{secrets.DOCKER_TOKEN}}
+
+
+      - name: "Building docker image"
+        run: docker build -t mo7med3li/taskimg .
+
+      - name: " pushing image to docker hub"
+        run: docker push mo7med3li/taskimg
+
+
+>>>>>>> dc723c5fcb992c2799e5ec10868f5b81dc9e5e85
