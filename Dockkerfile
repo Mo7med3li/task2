@@ -6,11 +6,4 @@ COPY mohamed.java .
 
 RUN javac mohamed.java
 
-
-RUN apk add --update nodejs
-RUN apk add --update npm
-RUN npm install express
-
-CMD node mohamed.java
-
-
+CMD java mohamed
