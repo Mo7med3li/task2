@@ -6,4 +6,6 @@ COPY mohamed.java .
 
 RUN javac mohamed.java
 
+RUN npm install express
+
 CMD java mohamed 
