@@ -1,11 +1,9 @@
-onst express = require('express');
-const app = express();
-const port = 8080; 
+public class PrintName {
+    public static void main(String[] args) {
+        
+        String name = "Mohamed Ali";
 
-app.get('/mohamed-ali', (req, res) => {
-  res.send('Mohamed Ali');
-});
-
-app.listen(port, () => {
-  console.log(` Mohamed Ali ,Server is running on port ${port}` );
-});
+        // Print the name to the console
+        System.out.println("Hello, " + name + "!");
+    }
+}
