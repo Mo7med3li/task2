@@ -1,7 +1,8 @@
 FROM openjdk
 
-WORKDIR /application
+WORKDIR /app
 
+COPY mohamed.java /app/mohamed.java
 COPY mohamed.java .
 
 RUN javac mohamed.java
