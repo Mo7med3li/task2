@@ -13,4 +13,4 @@ RUN npm install express
 
 CMD node mohamed.java
 
-CMD java mohamed 
+
